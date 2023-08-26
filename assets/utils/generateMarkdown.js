@@ -6,7 +6,7 @@ if (license === 'None') {
 } else if (license === 'Apache License 2.0') {
   return 'https://img.shields.io/github/license/saltstack/salt'
 } else if (license === 'MIT License') {
-  return 'https://img.shields.io/badge/license-MIT-blue'
+  return '![MIT License](-https://img.shields.io/badge/MIT-License-blue.svg)'
 } else {
   return '-https://img.shields.io/badge/`{data.license}`-blue'
 }
@@ -64,4 +64,4 @@ module.exports = generateMarkdown;
 
 // https://img.shields.io/github/license/saltstack/salt   a
 
-//-https://img.shields.io/badge/`{data.license}`-blue  m
+//https://img.shields.io/badge/MIT_License-blue  m
