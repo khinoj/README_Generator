@@ -7,14 +7,14 @@
   - 3
 
   ## Github Repo
-  - 45
+  - 4
 
   ## Github Pages
-  - 6
+  - 5
 
   ## Badge
-  - ![MIT License](-https://img.shields.io/badge/MIT-License-blue.svg)
+  - ![License: Apache](https://img.shields.io/badge/License-Apache_2.0-success.svg)
 
   ## License
-  - https://opensource.org/license/mit/
+  - https://choosealicense.com/licenses/apache-2.0/
 
