@@ -28,8 +28,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'page',
-        message: 'Share your Github deployed page',
+        name: 'contributors',
+        message: 'Any outside source you want to give credit to?',
     },
     {
         type: 'list',

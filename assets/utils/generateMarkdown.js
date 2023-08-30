@@ -4,12 +4,12 @@ function renderLicenseBadge(license) {
 if (license === 'None') {
   return 'Sorry No Badge for you!'
 } else if (license === 'Apache License 2.0') {
-  return '![License: Apache](https://img.shields.io/badge/License-Apache_2.0-success.svg)'
+  return '![License: Apache](https://img.shields.io/badge/License-Apache_2.0-success)'
 
 } else if (license === 'MIT License') {
-  return '![License: MIT License](https://img.shields.io/badge/License-MIT.0-red.svg)'
+  return '![License: MIT License](https://img.shields.io/badge/License-MIT.0-red)'
 } else {
-  return '![License: MIT License](https://img.shields.io/badge/Mozilla-blue.svg)'
+  return '![License: MIT License](https://img.shields.io/badge/Mozilla-blue)'
 }
 };
 
@@ -36,19 +36,31 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return ` 
+  
+  ## Title
+  ${data.title}
 
   ## Description
   - ${data.description}
 
+  ## Table of Content
+  1. [Title](#title)
+  2. [Description](#description)
+  3. [Install](#run)
+  4. [Repo](#repo)
+  5. [contribute](#contributors)
+  6. [Badge](#badge)
+  7. [License](#license)
+
   ## Install
   - ${data.run}
 
-  ## Github Repo
+  ## Repo
   - ${data.repo}
 
-  ## Github Pages
-  - ${data.page}
+  ## contributors
+  - ${data.contributors}
 
   ## Badge
   - ${renderLicenseBadge(data.license)}
