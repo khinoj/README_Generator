@@ -24,7 +24,7 @@ const questions = [
     {
         type: 'input',
         name: 'repo',
-        message: 'Github repo page url?',
+        message: 'What is your Github username?',
     },
     {
         type: 'input',

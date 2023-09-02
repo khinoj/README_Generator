@@ -37,10 +37,9 @@ function renderLicenseLink(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return ` 
+  ## Title 
+  - ${data.title}
   
-  ## Title
-  ${data.title}
-
   ## Description
   - ${data.description}
 
@@ -49,7 +48,7 @@ function generateMarkdown(data) {
   2. [Description](#description)
   3. [Install](#run)
   4. [Repo](#repo)
-  5. [contribute](#contributors)
+  5. [contributors](#contributors)
   6. [Badge](#badge)
   7. [License](#license)
 
@@ -57,7 +56,7 @@ function generateMarkdown(data) {
   - ${data.run}
 
   ## Repo
-  - ${data.repo}
+  - github.com/${data.repo}/README_Generator
 
   ## contributors
   - ${data.contributors}
